@@ -1,12 +1,12 @@
 .key {
     border: 4px solid #8b2e2e;
     border-radius: 5px;
-    margin: 13px;
+    margin: 10px;
     font-size: 10px;
     padding: 1rem .5rem;
     transition: all 0.07s;
-    width:92px;
-    height: 100px;
+    width:80px;
+    height: 80px;
     text-align: center;
     color: #c6c4c5;
     background: rgba(0,0,0,0.4);
@@ -21,6 +21,7 @@
     border-color: #f5b01d;
     color: white;
     box-shadow: 0 0 100px #b8e2b2; 
+    text-shadow: 2.1px 0px black
 }
 
 kbd {
@@ -29,17 +30,19 @@ kbd {
 }
 
 .sound{
-    font-size: 1rem;
+    font-size: 15px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    /* text-align: center; */
+    letter-spacing: 1px;
     color: #f5b01d;
 }
 
 div{
     display: block;
     margin: auto;
-    /* position: absolute; */
+    position: absolute;
     float: left;
+    left: 40px;
 }
 .keys {
     position: relative;
