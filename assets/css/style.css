@@ -5,15 +5,15 @@
     font-size: 10px;
     padding: 1rem .5rem;
     transition: all 0.07s;
-    width:88px;
+    width:92px;
     height: 100px;
     text-align: center;
     color: white;
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 5px #b8e2b2;
     background-color: transparent;
-    /* position: absolute; */
-
+    position: inherit;
+    top: 150px;
 }
 
 .playing{
@@ -23,7 +23,6 @@
 }
 
 kbd {
-
     display: black;
     font-size: 40px;
 }
@@ -35,11 +34,14 @@ kbd {
     color: #f5b01d;
 }
 
-div {
+div{
     display: block;
     margin: auto;
     /* position: absolute; */
     float: left;
+}
+.keys {
+    position: relative;
 }
 body {
     /* position: relative; */

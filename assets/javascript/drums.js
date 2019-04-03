@@ -20,3 +20,4 @@ const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition))
 //each key gets an event listenere added to it called transitionend, and when the transition ends we will remove it  
 window.addEventListener('keydown', playSound)
+Window.addEventListener('click', playSound)
