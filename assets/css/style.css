@@ -8,9 +8,9 @@
     width:92px;
     height: 100px;
     text-align: center;
-    color: white;
+    color: #c6c4c5;
     background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 5px #b8e2b2;
+    text-shadow: 2.1px 0px #b8e2b2;
     background-color: transparent;
     position: inherit;
     top: 225px;
@@ -19,7 +19,8 @@
 .playing{
     transform: scale(1.1);
     border-color: #f5b01d;
-    box-shadow: 0 0 10px #b8e2b2; 
+    color: white;
+    box-shadow: 0 0 100px #b8e2b2; 
 }
 
 kbd {
