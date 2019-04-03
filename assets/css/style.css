@@ -13,7 +13,7 @@
     text-shadow: 0 0 5px #b8e2b2;
     background-color: transparent;
     position: inherit;
-    top: 150px;
+    top: 225px;
 }
 
 .playing{
@@ -45,6 +45,6 @@ div{
 }
 body {
     /* position: relative; */
-    background-color: black;
+    background-image: url("../images/space.jpeg")
 
 }
